@@ -1,0 +1,230 @@
+:root {
+    --fuente-primaria: "Press Start 2P";
+    --fuente-secundaria: "IBM Plex Mono";
+}
+
+/*header*/
+.box-cabecera {
+    background: #5300C8;
+    width: 100%;
+    height: 96px;
+    box-shadow: 0px 7px 0.9px 0px #00000040;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 138px;
+    height: 56px;
+}
+
+.encabezado {
+    font-family: var(--fuente-primaria);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+/*body*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-family: var(--fuente-primaria);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    top: 40px;
+    padding: 40px;
+}
+
+.boxes input {
+    color: #03318C;
+    border-radius: 50px;
+    width: 350px;
+    height: 56px;
+    background: transparent;
+    border: 3px solid #03318C;
+}
+
+.boxes {
+    padding-bottom: 40px;
+}
+
+.boxes input::placeholder {
+    color: #03318C;
+    padding: 13px;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    text-align: left;
+}
+
+.boton-enviar,
+.boton-limpiar {
+    font-family: var(--fuente-secundaria);
+    border-radius: 15px;
+    width: 164px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+
+
+}
+
+.boton-enviar,
+.boton-limpiar {
+    background: #03318C;
+    border: 3px solid #03318C;
+}
+
+input.boton-enviar {
+    color: white;
+
+
+}
+
+input.boton-limpiar {
+    color: #03318C;
+    background: transparent;
+
+}
+
+.titulo-final {
+    font-family: var(--fuente-primaria);
+    color: white;
+}
+
+.padre-productos {
+    display: inline-block
+    
+}
+
+.hijo-producto {
+    background: #5D04D9;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: -5px 6px 3.3px 0px #00000040;
+    width: 196px;
+    height: 258px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+
+}
+
+/*.product:hover {
+    transform: scale(1.05);
+}*/
+.patines1{
+    width: 176px;
+    height: 174px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+}
+
+.nombre-producto {
+    font-family: var(--fuente-secundaria);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: white;
+
+}
+
+.precio {
+    font-family: var(--fuente-secundaria);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: left;
+    color: white;
+
+}
+
+.eliminar {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    border: 3px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*.scrollmenu {
+    width: 8px;
+    height: 69px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: #D6D6D6;
+}*/
+
+/*footer*/
+footer {
+    background: #5300C8;
+    width: 100%;
+    height: 168px;
+    box-shadow: 0px -10px 9.5px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 138px;
+    height: 56px;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev {
+    font-family: var(--fuente-secundaria);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+
+}
+
+.pie-pagina {
+    font-family: var(--fuente-primaria);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+/*@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}*/
